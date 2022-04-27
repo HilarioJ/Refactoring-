@@ -1,17 +1,17 @@
-function Ejercicio5(){
-    var edad = parseInt(document.getElementById("pal1").value);
-    var mensaje  ="";
+function PuedeConducir(){
+    var edad = parseInt(document.getElementById("edad").value);
+    var mensaje;
     if(edad > 100 || edad<0){
-        mensaje+= "No válido";
+        mensaje = "No válido";
     }
     else{
         if (edad >= 18) 
         {
-            mensaje+= "Puedes conducir"
+            mensaje = "Puedes conducir"
         }
         else
         {            
-            mensaje+= "No puedes conducir";                
+            mensaje = "No puedes conducir";                
         }
     }
     alert(mensaje);
