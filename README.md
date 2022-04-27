@@ -8,3 +8,6 @@
 # Ejercicio 3 -> Suma y resta la variable con botones
 
 # Ejercicio 4 -> Te dice las vocales mañusculas que tiene y te las cambia a minuscula.
+
+
+# Ejercicio 5 -> Introduce una edad y te dice si puedes conducir o no
