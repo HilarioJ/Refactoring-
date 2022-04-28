@@ -1,9 +1,9 @@
 function myFunction(){
 
-    let n = document.getElementById("nombre").value;
-    let a = document.getElementById("apellidos").value;
-    let e = parseInt(document.getElementById("edad").value);
-    let p  = document.getElementById("profesion").value;
+    let nombre = document.getElementById("nombre").value;
+    let apellidos = document.getElementById("apellidos").value;
+    let edad = parseInt(document.getElementById("edad").value);
+    let profesion  = document.getElementById("profesion").value;
 
     let s = "";
     for (let i = 0; i < 4; i++) {
@@ -15,9 +15,7 @@ function myFunction(){
                 s+= a
             }else if (i == 2) {
                 s += "\n Tienes una edad de: " + e
-            }else if (i == 3) {
                 s+= "\n Y tu profesión es: " + p
-            }
         }
         
     }
