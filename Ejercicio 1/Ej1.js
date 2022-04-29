@@ -1,28 +1,27 @@
-function myFunction(){
+function MandarSaludo(){
 
-    let n = document.getElementById("nombre").value;
-    let a = document.getElementById("apellidos").value;
-    let e = parseInt(document.getElementById("edad").value);
-    let p  = document.getElementById("profesion").value;
+    const nombre = document.getElementById("nombre").value;
+    const apellido = document.getElementById("apellidos").value;
+    const edad = parseInt(document.getElementById("edad").value);
+    const profesion  = document.getElementById("profesion").value;
 
-    let s = "";
+    let saludar = "";
     for (let i = 0; i < 4; i++) {
         if (i == 0) {
-            s += "Hola " + n + " "
+            saludar += "Hola " + nombre + " "
+        } 
+        else if (i == 1) {
+            saludar += apellido
         }
-        else {
-            if (i == 1) {
-                s+= a
-            }else if (i == 2) {
-                s += "\n Tienes una edad de: " + e
-            }else if (i == 3) {
-                s+= "\n Y tu profesión es: " + p
-            }
+        else if (i == 2) {
+            saludar += "\n Tienes una edad de: " + edad
+        }
+        else if (i == 3) {
+            saludar += "\n Y tu profesión es: " + profesion
         }
         
     }
-    
 
-    alert(s);
+    alert(saludar);
 
 }
