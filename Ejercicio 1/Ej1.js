@@ -11,5 +11,4 @@ function Saludar(){
             s += "\nY tu profesión es: " + profe
 
     alert(s);
-
 }
