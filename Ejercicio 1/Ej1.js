@@ -1,3 +1,4 @@
+
 function Saludar(){
 
     let nom = document.getElementById("nombre").value;
@@ -11,4 +12,5 @@ function Saludar(){
             s += "\nY tu profesión es: " + profe
 
     alert(s);
+
 }
