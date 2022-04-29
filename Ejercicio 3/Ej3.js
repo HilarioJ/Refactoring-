@@ -1,26 +1,26 @@
-var n = 0;
+var numero = 0;
 
-function myFunction(){
+function Sumar(){
 
-    if(n > 10){
-        n++;
+    if(numero > 10){
+        numero++;
     }
     else{
-        n--;
-        n = n +2;
+        numero--;
+        numero = numero +2;
     }
     
-    document.getElementById("numero").innerHTML = n;
+    document.getElementById("Resultado").innerHTML = numero;
 
 }
 
-function myFunction2(){
-    if (n < 10) {
-        n--;
+function Restar(){
+    if (numero < 10) {
+        numero--;
     }
     else {
-        n++;
-        n = n -2;
+        numero++;
+        numero = numero -2;
     }
-    document.getElementById("numero").innerHTML = n;
+    document.getElementById("Resultado").innerHTML = numero;
 }

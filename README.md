@@ -7,6 +7,11 @@
 
 # Ejercicio 3 -> Suma y resta la variable con botones
 
+Cambio de nombre de las funciones.
+Cambio de nombre de la variable del número.
+Cambio de la id del párrafo final a Resultado
+Cambio de nombre de las funciones
+
 # Ejercicio 4 -> Te dice las vocales mañusculas que tiene y te las cambia a minuscula.
 
 

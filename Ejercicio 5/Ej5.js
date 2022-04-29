@@ -1,35 +1,20 @@
-function Ejercicio5(){
-
-    var e = 18;
-
-    var y = parseInt(document.getElementById("pal1").value);
-    var s  ="";
-
-    if(y > 100){
-        s+= "No válido";
+function PuedeConducir(){
+    var edad = parseInt(document.getElementById("edad").value);
+    var mensaje;
+    if(edad > 100 || edad<0){
+        mensaje = "No válido";
     }
-    else if(y < 0){
-        s += "No válido";
-    }else{
-        if (e < y) {
-            s += "Puedes conducir"
+    else{
+        if (edad >= 18) 
+        {
+            mensaje = "Puedes conducir"
         }
-        else{
-            if (e == y) {
-                s+= "Puedes conducir"
-            }
-            else{
-                if(e > y){
-                    s+= "No puedes conducir";
-                }
-            }
+        else
+        {            
+            mensaje = "No puedes conducir";                
         }
     }
-
-    
-
-    alert(s);
-
+    alert(mensaje);
+}
    
 
-}
